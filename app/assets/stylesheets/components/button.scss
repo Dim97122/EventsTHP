@@ -1,0 +1,40 @@
+.btn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 1px;
+  padding: 15px;
+  width: 170px;
+  background: #ffc300;
+  border-radius: 25px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1em;
+  font-family: Oswald;
+  font-weight: bold;
+  transition: ease-in 450ms;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: grey;
+  box-shadow: 0px 2px 1px 1px rgba(0,0,0,0.3);
+}
+
+// .btn_primary {
+//     margin-top: 1em;
+//     position: relative;
+//     left: 50%;
+//     margin-left: -85px;
+//     padding: 10px;
+// }
+//
+// .form_control
+// {
+//   margin-top: 1em;
+//   position: relative;
+//   left: 38.4em;
+//   margin-left: 15px;
+//   padding: 10px
+//
+// }

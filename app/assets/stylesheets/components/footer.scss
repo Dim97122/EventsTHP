@@ -1,0 +1,38 @@
+.footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #003b64 ;
+    color: white;
+    text-align: center;
+    display:  flex;
+    justify-content:  space-between;
+    align-items: center;
+    min-height: 60px;
+}
+
+.footer-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #fff
+}
+
+.footer-items li {
+  float: right;
+  color: white;
+  padding:  14px 16px;
+  text-decoration: none;
+}
+
+.footer-right {
+  list-style-type: none;
+  margin: 0;
+  padding:  0;
+  overflow: hidden;
+}
+
+.footer-right li {
+  display: inline-block;
+  padding: 8px;
+}
