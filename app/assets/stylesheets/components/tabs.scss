@@ -1,0 +1,47 @@
+/* Tabs */
+.tabs {
+  width: 100%;
+  background-color: #DA1B00;
+  border-radius: 5px 5px 5px 5px;
+  margin: auto;
+}
+
+ul#tabs-nav {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  overflow: auto;
+}
+
+ul#tabs-nav li {
+  float: left;
+  font-weight: normal;
+  margin-right: 2px;
+  padding: 8px 10px;
+  border-radius: 5px 5px 5px 5px;
+  /*border: 1px solid #d5d5de;
+  border-bottom: none;*/
+  cursor: pointer;
+}
+
+ul#tabs-nav li:hover,
+ul#tabs-nav li.active {
+  background-color: #f0d20e;
+}
+
+#tabs-nav li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.tab-content {
+  padding: 10px;
+  border: 5px solid #DA1B00;
+  background-color: #FFF;
+}
+
+/* Just for CodePen styling - don't include if you copy paste */
+html {
+  margin: 0;
+  padding: 0;
+}

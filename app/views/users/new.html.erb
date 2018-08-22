@@ -1,5 +1,49 @@
-<h1>New User</h1>
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>La Villa Wattsmyname</h1>
+    </div>
 
-<%= render 'form', user: @user %>
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
 
-<%= link_to 'Back', users_path %>
+      <div class="slideshow">
+        	<ul>
+        		<li> <%= image_tag("bal promo biche.001.jpeg") %> </li>
+        		<li> <%= image_tag("bal promo biche.002.jpeg") %> </li>
+        		<li> <%= image_tag("bal promo biche.003.jpeg") %> </li> -->
+        	</ul>
+      </div>
+
+        <script>
+          $(function(){
+          setInterval(function(){
+             $(".slideshow ul").animate({marginLeft:-1500},800,function(){
+            $(this).css({marginLeft:0}).find("li:last").after($(this).find("li:first"));
+             })
+          }, 5000);
+        });
+        </script>
+
+        <div class="event_note">
+          <div class="event_note1">
+            <h2>Lorem ipsum dolor sit amet</h2>
+              <p>ed imperdiet ultricies ligula, facilisis vulputate lorem tincidunt nec. Vivamus congue, massa hendrerit dapibus tincidunt, ligula ex aliquet ante, eu porta mi elit vitae justo. Nullam vel lobortis erat, in posuere augue. Ut egestas, urna ut pulvinar suscipit, felis risus eleifend lorem, quis condimentum purus nisl ut odio. Etiam nec urna dignissim mi mollis placerat. Maecenas molestie mi sapien, blandit scelerisque urna pharetra et. Curabitur varius elit vel luctus dictum. Vestibulum viverra blandit diam. Fusce eget magna quam.</p>
+          </div>
+          <div class="event_note2">
+            <h2>Lorem ipsum dolor sit amet</h2>
+              <%= render 'form', user: @user %>
+          </div>
+
+        </div>
+
+
+
+    <%= link_to 'Back', users_path %>
+
+  </body>
+</html>
